@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="712c9049-88bf-4073-8c88-d5dba80c1765">
+  <producedTypes>
+    <objectType typeId="6f713106-63d5-40e8-af3b-9956a78719ff" valueTypeId="22a96787-d38f-4de1-ab07-a077fe07d634"/>
+    <managerType typeId="3658006a-5347-49dd-a402-2c5db3b822ff" valueTypeId="bd71a608-6f2c-40c9-aa6c-069b3b096b3e"/>
+  </producedTypes>
+  <name>Занятие6</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятие 6</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Занятие6.Form.Форма</defaultForm>
+  <attributes uuid="80653910-0f83-4bc4-9c4c-89359a131656">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f071f84-1e92-416c-8e01-e7c361aed114">
+    <name>Степень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a257d57b-34f5-4bed-aba6-945504218a57">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
