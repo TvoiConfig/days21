@@ -50,6 +50,7 @@
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.РеализацияТоваров</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <dataProcessors>DataProcessor.Занятие6</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНаНоменклатуру</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
