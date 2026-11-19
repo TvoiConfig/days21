@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97d3b47a-91e9-4667-8060-e19b93ad56da">
+  <producedTypes>
+    <selectionType typeId="cc2155e4-bc1a-4e9f-9962-863de087e239" valueTypeId="f8a238fa-a957-4ace-a45b-a4b2c37cc6de"/>
+    <listType typeId="219df094-3354-4ce2-bd7e-d32dff6c0643" valueTypeId="0d407a0f-4de7-4dcc-9240-eaf080849569"/>
+    <managerType typeId="3e889afb-2456-4b26-811c-a943c77b1d4a" valueTypeId="7ef2cf66-4799-424b-94a1-6225897fbe93"/>
+    <recordSetType typeId="777d57ac-5da9-4968-b4aa-2404a79590ac" valueTypeId="0db34f5d-c3e5-44ea-87c3-f726d3c91ab9"/>
+    <recordKeyType typeId="66f35f1e-1954-4de6-8a80-4f181dcfd5e4" valueTypeId="04d2908b-60aa-4477-bdb2-fa627c1a25be"/>
+    <recordType typeId="18916d30-26e7-4646-8e2a-872b204b8ed9" valueTypeId="174e9958-3a2b-4a4e-9ec8-d1fcec5c0327"/>
+  </producedTypes>
+  <name>ОстаткиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Движение по регистру остатки товаров</value>
+  </listPresentation>
+  <resources uuid="8ccf3951-9c57-477d-bf77-7744edf112fe">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="510f011e-29b5-404a-9a2a-5123c0a6ecd1">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
