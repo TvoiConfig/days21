@@ -51,6 +51,7 @@
   <documents>Document.РеализацияТоваров</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <dataProcessors>DataProcessor.Занятие6</dataProcessors>
+  <dataProcessors>DataProcessor.Занятие7</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНаНоменклатуру</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
